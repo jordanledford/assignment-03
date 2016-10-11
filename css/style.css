@@ -1,0 +1,111 @@
+/*CSS DEFAULTS*/ * {
+   box-sizing: border-box;
+}
+
+
+/*img {
+   display: block;
+   width: 100%;
+   max-width: 100%;
+   height: auto;*/
+}
+
+ul {
+   padding: 0;
+}
+
+body{
+   margin: 0;
+}
+
+/*General Styles*/
+body{
+   background: #DEDEDE;
+   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+
+/*.column-container{
+   font-size: 0;
+}*/
+
+/*.centered-content div{
+   display: inline-block;
+   font-size: medium;
+   padding-left: 20%;
+   padding-right: 20%;
+   border-bottom: 1px, grey, solid; */
+}
+
+/*Specific Styles*/
+
+.totalcontent {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+  background: #fff;
+}
+
+.upcoming div{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.soulja-boi {
+  display: inline-block;
+  max-width: 600px;
+
+  background-color: #fefefe;
+  padding: 30px;
+}
+
+.topnavbar {
+  background-color: #303030;
+  font: 0;
+}
+
+.logo {
+  height: 40px;
+  width: 29%;
+  display: inline-block;
+}
+
+.label {
+  height: 40px;
+  width: 70%;
+  display: inline-block;
+}
+.centered-content {
+background: #ddd;
+
+}
+
+.red-hot-links {
+  background-color: #F5F5F5;
+
+}
+
+.red-hot-links button{
+  margin: 5%;
+  border: red, solid, 10px;
+  padding: 5px;
+  color: blue;
+}
+
+.red-hot-links:visited {
+  color: grey;
+}
+
+.third-paragraph img{
+ height: 200px;
+ width: auto;
+}
+
+.footer div{
+  border-top: solid, black, 2px;
+  -webkit-columns: 100px 4;
+  -moz-columns: 100px 4;
+  columns: 100px 4;
+
+}
